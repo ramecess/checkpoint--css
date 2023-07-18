@@ -1,0 +1,53 @@
+ul{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    border: solid rgb(219, 209, 209);
+    
+
+    
+
+}
+li{
+    display: inline;
+    padding: 35px;
+    font-size: 40px
+    
+    
+    
+}
+li>a{
+    text-decoration: none;
+}
+section  h1{
+    text-align: center;
+    color: brown;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+section p{
+    font-family:'roboto',sans-serif;
+    font-size: 20px;
+    
+}
+.prenom input{
+    background-color: rgb(196, 248, 255);
+    padding: 10px;
+
+
+
+}
+footer p{
+    margin-left: 60%;
+    font-family: 'roboto',sans-serif;
+    background: rgb(221, 192, 216);
+    padding: 10px;
+}
+body{
+    /* background-color: azure; */
+}
+ .image{
+    text-align: center;
+    
+    
+}

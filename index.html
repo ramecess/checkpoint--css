@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
     <title>ma premiere page</title>
 </head>
 <body>
@@ -18,16 +19,16 @@
             </ul>
         </nav>
     </header>
-    <section id="about">
+    <section class="about">
         <h1>About</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima placeat sunt tempora pariatur minus aut inventore accusantium dolor incidunt, dignissimos animi quo consequuntur facilis voluptate maxime! Obcaecati, voluptatem explicabo?
         Quam velit accusamus labore, exercitationem quos, eum deserunt adipisci nihil minima, ut placeat aliquid nemo. Quam ratione, labore incidunt sapiente inventore maiores deleniti deserunt facere similique velit magni, fugit aliquam.</p>
         <!--image-->
-        <h2> Image</h2>
-        <img src="mon image.png" alt="mon image"/>
-
-    </section>
-    <section id="work">
+         <div class="image">
+            <img src="https://images.unsplash.com/photo-1689443111223-fdba9d92dbd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=400&q=60" alt="mon image" >
+        </div>
+        </section>
+    <section class="work">
         <!--titre de niveau 1-->
         <h1> Work</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quis nulla inventore iste assumenda nostrum ab doloribus quaerat eos, facilis dignissimos perspiciatis. Voluptatem sapiente nihil incidunt dolores expedita cumque esse!
@@ -38,19 +39,19 @@
             <source src="video.mp4" type="video/mp4"/>
         </video>
     </section>
-    <section id="resume">
+    <section class="resume">
         <h1>Resume</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore accusantium quod asperiores, rerum, quaerat atque doloribus est similique suscipit distinctio saepe doloremque! Perferendis modi unde, voluptatem harum velit magni expedita?
         Repudiandae ea culpa ipsum sapiente sequi impedit officiis quo magni libero est vel soluta dignissimos, earum, ratione totam commodi ipsa animi repellat dolor? Quidem reiciendis numquam, eaque veritatis doloribus mollitia!</p>
     </section>
-    <section id="contact">
+    <section class="contact">
         <!--formulaire-->
         <h1>Contact</h1>
-        <form>
-            <label for="name">Nom:</label>
+        <form class="prenom">
+            <label for="name"><b>Nom:</b></label>
             <input type="texte" id="name" placeholder="entrer le nom"/>
             <br/> <br/>
-            <label for="number">Number:</label>
+            <label for="number"><b>Number:</b></label>
             <input type="number" id="number" placeholder="entrer le number"/>
             <br/> <br/>
             <button type="submit">submit</button> 
